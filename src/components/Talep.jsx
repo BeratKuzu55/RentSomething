@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import { useDispatch, useSelector } from "react-redux"
 import { setLocation, resetLocation } from "../store/locationSlice";
@@ -68,4 +69,24 @@ export default function Talep() {
         </div>
 
     </>
+=======
+import React from "react";
+
+export default function Talep(){
+
+    function handleSubmit(e){
+        const talep = e.target.value;
+    }
+
+    return <>
+        <div className="yenitalep">
+            <form action="submit">
+                <input type="text" placeholder="Neye ihtiyacınız var ?"/>
+                <input type="number" />
+                <button onClick={handleSubmit}>Ekle</button>
+            </form>
+        </div>
+    
+    </>
+>>>>>>> 6f61759d8c5304d26eead09cd5e915537fd71c01
 }

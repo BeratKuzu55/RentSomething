@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import { useDispatch, useSelector } from "react-redux"
 
@@ -47,4 +48,14 @@ export default function TalepSayfasi() {
             </div>
         })}
     </>
+=======
+import React from "react";
+
+export default function TalepSayfasi(){
+
+    return <>
+    
+        <p>yakındaki talepler</p>
+    </>
+>>>>>>> 6f61759d8c5304d26eead09cd5e915537fd71c01
 }
